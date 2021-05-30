@@ -1,0 +1,20 @@
+﻿@using CarSystem.Web.Models.Enterprise
+
+@(Html.Kendo().Grid<EnterpriseViewModel>()
+    .Name("Grid")
+    .Columns(x =>
+    {
+        x.Bound(c => c.CompanyName).Title("Nome");
+        x.Bound(c => c.Cnpj).Title("Cnpj");
+        x.Bound("Id").ClientTemplate("#= editItem(data, '" + Url.Action("Edit") + "') #").Title("Editar").Width(60);
+        x.Bound("Id").ClientTemplate("#= deleteItem(data, '" + Url.Action("Delete") + "') #").Title("Excluir").Width(60);
+    })
+    .Sortable()
+    .Pageable(x => x.PageSizes(new[] { 10, 20, 30, 50, 100 }).ButtonCount(5).Refresh(true))
+    .Filterable()
+    .DataSource(x => x
+        .Ajax()
+        .Sort(sort => sort.Add(s => s.CompanyName).Ascending())
+        .Read(r => r.Url(Url.Action("BindGrid")))
+        .ServerOperation(false)
+        .PageSize(20)))

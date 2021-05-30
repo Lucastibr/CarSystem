@@ -1,0 +1,9 @@
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Release\netstandard2.0\CarSystem.Migrations.deps.json
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Release\netstandard2.0\CarSystem.Migrations.dll
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Release\netstandard2.0\CarSystem.Migrations.pdb
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Release\netstandard2.0\CarSystem.Migrations.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Release\netstandard2.0\CarSystem.Migrations.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Release\netstandard2.0\CarSystem.Migrations.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Release\netstandard2.0\CarSystem.Migrations.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Release\netstandard2.0\CarSystem.Migrations.dll
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Release\netstandard2.0\CarSystem.Migrations.pdb

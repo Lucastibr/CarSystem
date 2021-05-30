@@ -1,0 +1,38 @@
+﻿@using CarSystem.Web.Models.Enterprise
+@model EnterpriseViewModel
+
+<h3> Codout - Novo Item</h3>
+
+<form method="post" role="form">
+    <input asp-for="Id" type="hidden"/>
+    <div asp-validation-summary="None"></div>
+
+    <div class="form-group">
+        <div class="form-group">
+            <label asp-for="CompanyName"></label>
+            <input asp-for="CompanyName" class="form-control" />
+            <span asp-validation-for="CompanyName"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Cnpj"></label>
+            <input asp-for="Cnpj" class="form-control" type="number" id="cnpj"/>
+            <span asp-validation-for="Cnpj" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Salvar</button>
+        </div>
+
+    </div>
+</form>
+
+@section Scripts
+{
+    <script>
+        
+     $(function() {
+        
+     });
+
+    </script>
+}

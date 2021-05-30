@@ -1,0 +1,21 @@
+﻿@using CarSystem.Web.Models.Vehicle
+
+@(Html.Kendo().Grid<VehicleViewModel>()
+    .Name("Grid")
+    .Columns(x =>
+    {
+        x.Bound(c => c.CarLicensePlate).Title("Placa do Carro");
+        x.Bound(c => c.Chassis).Title("Chassi do Carro");
+        x.Bound(c => c.EnterpriseName).Title("Empresa");
+        x.Bound("Id").ClientTemplate("#= editItem(data, '" + Url.Action("Edit") + "') #").Title("Editar").Width(60);
+        x.Bound("Id").ClientTemplate("#= deleteItem(data, '" + Url.Action("Delete") + "') #").Title("Excluir").Width(60);
+    })
+    .Sortable()
+    .Pageable(x => x.PageSizes(new[] { 10, 20, 30, 50, 100 }).ButtonCount(5).Refresh(true))
+    .Filterable()
+    .DataSource(x => x
+        .Ajax()
+        .Sort(sort => sort.Add(s => s.CarLicensePlate).Ascending())
+        .Read(r => r.Url(Url.Action("BindGrid")))
+        .ServerOperation(false)
+        .PageSize(20)))

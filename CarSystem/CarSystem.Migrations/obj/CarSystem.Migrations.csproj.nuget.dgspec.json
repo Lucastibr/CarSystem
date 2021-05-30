@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lucas\\Desktop\\Projects\\CarSystem\\CarSystem\\CarSystem.Migrations\\CarSystem.Migrations.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lucas\\Desktop\\Projects\\CarSystem\\CarSystem\\CarSystem.Migrations\\CarSystem.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\Projects\\CarSystem\\CarSystem\\CarSystem.Migrations\\CarSystem.Migrations.csproj",
+        "projectName": "CarSystem.Migrations",
+        "projectPath": "C:\\Users\\Lucas\\Desktop\\Projects\\CarSystem\\CarSystem\\CarSystem.Migrations\\CarSystem.Migrations.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucas\\Desktop\\Projects\\CarSystem\\CarSystem\\CarSystem.Migrations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Lucas\\Desktop\\Local Packages": {},
+          "C:\\Users\\Lucas\\source\\repos\\Mkp\\packages local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Console": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

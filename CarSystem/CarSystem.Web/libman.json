@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/js/sweetalert/"
+    },
+    {
+      "library": "limonte-sweetalert2@10.16.6",
+      "destination": "wwwroot/js/limonte-sweetalert2/"
+    },
+    {
+      "library": "select2@4.0.13",
+      "destination": "wwwroot/lib/select2/",
+      "files": [
+        "js/select2.min.js",
+        "js/i18n/pt-BR.min.js",
+        "js/i18n/pt-BR.js",
+        "js/select2.js",
+        "css/select2.css",
+        "css/select2.min.css"
+      ]
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "wwwroot/js/jquery/"
+    },
+    {
+      "library": "font-awesome@5.15.3",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/lib/toastr.js/"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CarSystem.Domain/1.0.0": {
+        "dependencies": {
+          "Codout.Framework.Domain": "2.0.4"
+        },
+        "runtime": {
+          "CarSystem.Domain.dll": {}
+        }
+      },
+      "Codout.Framework.DAL/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Codout.Framework.DAL.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Codout.Framework.Domain/2.0.4": {
+        "dependencies": {
+          "Codout.Framework.DAL": "2.0.0",
+          "MongoDB.Bson": "2.11.5",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Codout.Framework.Domain.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "MongoDB.Bson/2.11.5": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.5.0",
+            "fileVersion": "2.11.5.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {}
+    }
+  },
+  "libraries": {
+    "CarSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Codout.Framework.DAL/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M/8uB6LgxCqbXV0sn6xl9DlDWC6Se/lATlMzvg8LJtqEmdh7bUk+jds2Raj+nP304rz0uNTFIkIOSQxNra5xDQ==",
+      "path": "codout.framework.dal/2.0.0",
+      "hashPath": "codout.framework.dal.2.0.0.nupkg.sha512"
+    },
+    "Codout.Framework.Domain/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MQwnt67VROTYkiq+WAtS5c8WdiBZkXrZ+tyJ4rFXSCFfZQmk6jtj5gVXwzvX5kDpKdew8CednZthiD4sq03T0A==",
+      "path": "codout.framework.domain/2.0.4",
+      "hashPath": "codout.framework.domain.2.0.4.nupkg.sha512"
+    },
+    "MongoDB.Bson/2.11.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OWsEN7ktxFKcynAMdv08TE5wkL1kkyWJUv+zhO3H3HcK+S4AU52AnxoyVmVSdPk5OWYoTtzbeCOIdmZV2dk5zg==",
+      "path": "mongodb.bson/2.11.5",
+      "hashPath": "mongodb.bson.2.11.5.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CarSystem.Migrations</id>
+    <version>1.0.0</version>
+    <authors>CarSystem.Migrations</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="FluentMigrator" version="3.2.15" exclude="Build,Analyzers" />
+        <dependency id="FluentMigrator.Console" version="3.2.15" exclude="Build,Analyzers" />
+        <dependency id="FluentMigrator.Runner" version="3.2.15" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Release\netstandard2.0\CarSystem.Migrations.dll" target="lib\netstandard2.0\CarSystem.Migrations.dll" />
+  </files>
+</package>

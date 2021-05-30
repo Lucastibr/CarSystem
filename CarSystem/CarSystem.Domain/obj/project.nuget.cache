@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CI4HGtLhTCNH3J03j8tnMk/bBnl8ZpDxzznhxCD3fr0uAmVujD855fS3NoIDQWNbtXTChMbFAcGJfphLJSzR0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lucas\\Desktop\\Projects\\CarSystem\\CarSystem\\CarSystem.Domain\\CarSystem.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\codout.framework.dal\\2.0.0\\codout.framework.dal.2.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\codout.framework.domain\\2.0.4\\codout.framework.domain.2.0.4.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\mongodb.bson\\2.11.5\\mongodb.bson.2.11.5.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

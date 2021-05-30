@@ -1,0 +1,12 @@
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Debug\net5.0\CarSystem.Migrations.deps.json
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Debug\net5.0\CarSystem.Migrations.dll
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Debug\net5.0\ref\CarSystem.Migrations.dll
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\bin\Debug\net5.0\CarSystem.Migrations.pdb
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\CarSystem.Migrations.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\CarSystem.Migrations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\CarSystem.Migrations.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\CarSystem.Migrations.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\CarSystem.Migrations.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\CarSystem.Migrations.dll
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\ref\CarSystem.Migrations.dll
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Migrations\obj\Debug\net5.0\CarSystem.Migrations.pdb
