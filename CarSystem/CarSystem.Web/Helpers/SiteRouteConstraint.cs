@@ -25,7 +25,7 @@ namespace CarSystem.Web.Helpers
                 return false;
 
             var siteExists = _unitOfWork.Vehicle.Find(x =>
-                    x.CarLicensePlate.Trim().ToLower() == site.Trim().ToLower())
+                    x.LicensePlate.Trim().ToLower() == site.Trim().ToLower())
                 .Any();
 
             return siteExists;

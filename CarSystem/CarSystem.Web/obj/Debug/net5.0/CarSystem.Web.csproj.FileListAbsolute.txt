@@ -176,7 +176,6 @@ C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem\bin\Debug\net5.0\r
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\obj\Debug\net5.0\CarSystem.Web.csprojAssemblyReference.cache
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\obj\Debug\net5.0\CarSystem.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\obj\Debug\net5.0\CarSystem.Web.AssemblyInfoInputs.cache
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\obj\Debug\net5.0\CarSystem.Web.AssemblyInfo.cs
@@ -659,3 +658,4 @@ C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\obj\Debug\net5
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\bin\Debug\net5.0\CarSystem.Web.StaticWebAssets.xml
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\bin\Debug\net5.0\AspNetCoreHero.ToastNotification.Views.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\bin\Debug\net5.0\AspNetCoreHero.ToastNotification.dll
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Web\obj\Debug\net5.0\CarSystem.Web.csproj.AssemblyReference.cache

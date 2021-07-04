@@ -1,5 +1,7 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using CarSystem.Domain.Base;
+using CarSystem.Domain.Enums;
 
 namespace CarSystem.Domain
 {
@@ -8,7 +10,7 @@ namespace CarSystem.Domain
         /// <summary>
         /// Placa do Carro
         /// </summary>
-        public virtual string CarLicensePlate {get; set;}
+        public virtual string LicensePlate {get; set;}
 
         /// <summary>
         /// Chassi do Carro
@@ -16,5 +18,27 @@ namespace CarSystem.Domain
         public virtual string Chassis {get; set;}
 
         public virtual Enterprise Enterprise {get; set;}
+
+        /// <summary>
+        /// Preço do Veículo
+        /// </summary>
+        public virtual decimal Price {get; set;}
+        
+        /// <summary>
+        /// Tipo de Veículo
+        /// </summary>
+        public virtual VehicleType? VehicleType {get; set;}
+
+        /// <summary>
+        /// Ano de Lançamento
+        /// </summary>
+        public virtual DateTime YearRelease {get; set;}
+
+        /// <summary>
+        /// Corpo do Carro
+        /// </summary>
+        public virtual CarBody? CarBody {get; set;}
+
+        public virtual string Image {get; set;}
     }
 }

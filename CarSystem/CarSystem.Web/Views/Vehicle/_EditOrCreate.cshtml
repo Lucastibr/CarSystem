@@ -1,14 +1,16 @@
 ﻿@using CarSystem.Web.Models.Vehicle
+@using CarSystem.Domain.Enums
+
 @model VehicleViewModel
 
-<form method="post" role="form">
+<form method="post" role="form"  enctype="multipart/form-data" id="frm">
     <input asp-for="Id" type="hidden"/>
     <div asp-validation-summary="None"></div>
     <div class="form-group">
         <div class="form-group">
-            <label asp-for="CarLicensePlate"></label>
-            <input asp-for="CarLicensePlate" class="form-control" />
-            <span asp-validation-for="CarLicensePlate" class="text-danger"></span>
+            <label asp-for="LicensePlate"></label>
+            <input asp-for="LicensePlate" class="form-control" maxlength="7" id="licensePlate"/>
+            <span asp-validation-for="LicensePlate" class="text-danger" ></span>
         </div>
         <div class="form-group">
             <label asp-for="Chassis"></label>
@@ -16,13 +18,47 @@
             <span asp-validation-for="Chassis" class="text-danger"></span>
         </div>
         <div class="form-group">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" class="form-control" type="text" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="YearRelease"></label>
+            <input asp-for="YearRelease" class="form-control" id="datepicker"/>
+            <span asp-validation-for="YearRelease" class="text-danger"></span>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-6">
+            <label asp-for="VehicleType"></label>
+            <select asp-for="VehicleType" asp-items="Html.GetEnumSelectList<VehicleType>()" class="form-control" ></select>
+            <span asp-validation-for="VehicleType" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="CarBody"></label>
+            <select asp-for="CarBody" asp-items="Html.GetEnumSelectList<CarBody>()" class="form-control" ></select>
+            <span asp-validation-for="CarBody" class="text-danger"></span>
+        </div>
+        </div>
+        <div class="form-group">
             <select asp-for="EnterpriseId" asp-items="Model.Enterprises" class="select2" style="width: 50%">
-                <option value="">Selecione</option>
+                <option value=""></option>
             </select>
         </div>
 
-        <div class="form-group">
-            <button class="btn btn-primary" type="submit">Salvar</button>
+        <div class="col-md-6 mt-2">  
+            <div class="form-group">  
+                <div class="custom-file">  
+                    <input asp-for="Image" class="custom-file-input" id="customFile">
+                      <label class="custom-file-label" for="customFile">Choose file</label>  
+                            </div>  
+                </div>  
+                <span asp-validation-for="Image" class="text-danger"></span>  
+            </div>  
+        </div> 
+
+        <div class="form-group mt-2">
+            <button class="btn btn-danger" type="submit" onclick="history.back()">Voltar</button>
+            <button class="btn btn-primary" type="submit" id="save">Salvar</button>
         </div>
 
     </div>
@@ -32,7 +68,32 @@
 {
     <script type="text/javascript">
         $(function() {
-            $('.select2').select2();
-        })
+                $('.select2').select2();
+
+                $("#datepicker").kendoDatePicker({
+                    // defines the start view
+                    start: "year",
+
+                    // defines when the calendar should return date
+                    depth: "year",
+
+                    // display month and year in the input
+                    format: "MM/yyyy",
+
+                    // specifies that DateInput is used for masking the input element
+                    dateInput: true
+                });
+
+            Image();
+           
+            });
+
+        function Image() {
+            $(".custom-file-input").on("change", function () {  
+                var fileName = $(this).val().split("\\").pop();  
+                $(this).siblings(".custom-control-label").addClass("selected").html(fileName);  
+            });
+        }
+      
     </script>
 }

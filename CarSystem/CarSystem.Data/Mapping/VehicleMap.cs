@@ -9,8 +9,13 @@ namespace CarSystem.Data.Mapping
         {
             Table("TBVehicles");
 
-            Map(x => x.CarLicensePlate);
+            Map(x => x.LicensePlate);
             Map(x => x.Chassis);
+            Map(x => x.Price);
+            Map(x => x.VehicleType);
+            Map(x => x.YearRelease);
+            Map(x => x.CarBody);
+            Map(x => x.Image);
             
             References(x =>x.Enterprise);
 

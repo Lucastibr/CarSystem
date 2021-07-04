@@ -20,7 +20,7 @@ using Kendo.Mvc.UI;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"071ef1da4b116ed7680ee99ece0a99bd451698cd", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"448587a5dc3eac724b1ff1825439da58daa5737c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2f31aa37a787c95f5dbbf867000489f3e683e234", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CarSystem.Web.Models.ErrorViewModel>
     {
         #pragma warning disable 1998
