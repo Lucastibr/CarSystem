@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSystem.Data", "CarSystem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSystem.Migrations", "CarSystem.Migrations\CarSystem.Migrations.csproj", "{F494002D-3419-449F-922E-8427505D900D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSystem.Web", "CarSystem.Web\CarSystem.Web.csproj", "{7702D2FD-1E71-4E69-A963-8DAE6DBBD32A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSystem.Web", "CarSystem.Web\CarSystem.Web.csproj", "{7702D2FD-1E71-4E69-A963-8DAE6DBBD32A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

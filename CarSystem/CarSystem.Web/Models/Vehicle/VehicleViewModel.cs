@@ -39,6 +39,7 @@ namespace CarSystem.Web.Models.Vehicle
         [Display(Name = "Valor do Veículo")]
         public decimal Price {get; set;}
 
+        [Display(Name ="Imagem")]
         public IFormFile Image {get; set;}
 
         public string VehicleImage { get; set;}
@@ -51,13 +52,13 @@ namespace CarSystem.Web.Models.Vehicle
         public override bool IsValid(IUnitOfWorkCarSystem unitOfWork, ModelStateDictionary modelState)
         {
            
-                if (unitOfWork.Vehicle.Find(x => x.LicensePlate == LicensePlate && x.Id != Id).Any())
+           if (unitOfWork.Vehicle.Find(x => x.LicensePlate == LicensePlate && x.Id != Id).Any())
                     modelState.AddModelError("CarLicensePlate", "Placa já cadastrada, tente novamente com outra Placa");
 
-                if (unitOfWork.Vehicle.Find(x => x.Chassis == Chassis && x.Id != Id).Any())
+           if (unitOfWork.Vehicle.Find(x => x.Chassis == Chassis && x.Id != Id).Any())
                     modelState.AddModelError("Chassis", "Chassi já cadastrado, tente novamente com outro Chassi");
 
-                if (LicensePlate.Length > 7 && LicensePlate != null)
+           if (LicensePlate.Length > 8 && LicensePlate != null)
                     modelState.AddModelError("LicensePlate", "Placa só deve ter 7 Caracteres");
             
             return base.IsValid(unitOfWork, modelState);

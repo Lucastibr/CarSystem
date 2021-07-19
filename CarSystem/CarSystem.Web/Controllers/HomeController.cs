@@ -16,5 +16,13 @@ namespace CarSystem.Web.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public JsonResult Dashboard()
+        {
+            var vehicles = UnitOfWork.Vehicle.All();
+
+            return Json(vehicles);
+        }
     }
 }

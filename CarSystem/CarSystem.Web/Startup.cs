@@ -80,6 +80,7 @@ namespace CarSystem
                 options.HttpsPort = 443;
             });
 
+            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services
                 .AddMvc()
 #if DEBUG
@@ -89,7 +90,9 @@ namespace CarSystem
                 
         }
 
+#pragma warning disable CS1998 // Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.
         private async Task<ProviderCultureResult> Provider(HttpContext context)
+#pragma warning restore CS1998 // Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.
         {
             return new ProviderCultureResult("pt-BR");
         }

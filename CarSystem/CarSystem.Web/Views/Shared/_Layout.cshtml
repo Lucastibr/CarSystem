@@ -3,32 +3,24 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CrudProjectItem.Web</title>
+    <title>@ViewData["Title"] - CarSystem</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
     <link rel="stylesheet" href="~/css/site.css" />
 
     <partial name="_Styles" />
 
-    @RenderSection("Styles", required: false)
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
-<header>
-</header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
-
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; Codout 
+    <partial name="_Header"/>
+    <div class="wrapper">
+    <partial name="_Sidebar"/>
     </div>
-</footer>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<link href="~/css/bootstrap.css" rel="stylesheet" />
+        @RenderBody()
+
 <script src="~/js/jquery/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 <script src="https://kit.fontawesome.com/93af0721e9.js" crossorigin="anonymous"></script>   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
@@ -36,6 +28,6 @@
 <script src="https://kendo.cdn.telerik.com/2021.2.511/js/kendo.aspnetmvc.min.js"></script>
 <partial name="_Scripts" />
 
-@RenderSection("Scripts", required: false)
+@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

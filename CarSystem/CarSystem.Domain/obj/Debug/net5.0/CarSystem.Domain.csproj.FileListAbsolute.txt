@@ -2,6 +2,7 @@ C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\bin\Debug\n
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\bin\Debug\net5.0\CarSystem.Domain.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\bin\Debug\net5.0\ref\CarSystem.Domain.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\bin\Debug\net5.0\CarSystem.Domain.pdb
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\CarSystem.Domain.csproj.AssemblyReference.cache
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\CarSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\CarSystem.Domain.AssemblyInfoInputs.cache
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\CarSystem.Domain.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\n
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\CarSystem.Domain.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\ref\CarSystem.Domain.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\CarSystem.Domain.pdb
-C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Domain\obj\Debug\net5.0\CarSystem.Domain.csproj.AssemblyReference.cache

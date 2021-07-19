@@ -4,6 +4,7 @@ C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\bin\Debug\net
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\bin\Debug\net5.0\CarSystem.Data.pdb
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\bin\Debug\net5.0\CarSystem.Domain.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\bin\Debug\net5.0\CarSystem.Domain.pdb
+C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\CarSystem.Data.csproj.AssemblyReference.cache
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\CarSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\CarSystem.Data.AssemblyInfoInputs.cache
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\CarSystem.Data.AssemblyInfo.cs
@@ -12,4 +13,3 @@ C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\CarSystem.Data.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\ref\CarSystem.Data.dll
 C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\CarSystem.Data.pdb
-C:\Users\Lucas\Desktop\Projects\CarSystem\CarSystem\CarSystem.Data\obj\Debug\net5.0\CarSystem.Data.csproj.AssemblyReference.cache

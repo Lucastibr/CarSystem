@@ -5,13 +5,13 @@
     .Columns(x =>
     {
         x.Bound(c => c.Image).ClientTemplate("#= productImage(data)#");
-        x.Bound(c => c.LicensePlate).Title("Placa do Carro");
-        x.Bound(c => c.Chassis).Title("Chassi do Carro");
-        x.Bound(c => c.Price).Title("Valor").Format("{0:C2}");
-        x.Bound(c => c.YearRelease).Title("Ano de Lançamento").Format("{0:MM/yyyy}");
-        x.Bound(c => c.VehicleType).Title("Tipo de Veículo");
-        x.Bound(c => c.CarBody).Title("Corpo do Carro");
-        x.Bound(c => c.EnterpriseName).Title("Empresa");
+        x.Bound(c => c.LicensePlate).Title("Placa do Carro").Width(40);
+        x.Bound(c => c.Chassis).Title("Chassi do Carro").Width(40);
+        x.Bound(c => c.Price).Title("Valor").Format("{0:C2}").Width(60);
+        x.Bound(c => c.YearRelease).Title("Ano de Lançamento").Format("{0:MM/yyyy}").Width(60);
+        x.Bound(c => c.VehicleType).Title("Tipo de Veículo").Width(60);
+        x.Bound(c => c.CarBody).Title("Cat.").Width(40);
+        x.Bound(c => c.EnterpriseName).Title("Empresa").Width(60);
         x.Bound("Id").ClientTemplate("#= editItem(data, '" + Url.Action("Edit") + "') #").Title("Editar").Width(60);
         x.Bound("Id").ClientTemplate("#= deleteItem(data, '" + Url.Action("Delete") + "') #").Title("Excluir").Width(60);
     })
@@ -28,10 +28,10 @@
 <script>
     function productImage(data) {
         if (data.VehicleImage) {
-            return `<div class="text-center"><img style="width:100px;height:50px;" src="/img/${data.VehicleImage}" class="img-circle"/></div>`;
+            return `<div class="text-center"><img style="width:80px;height:50px;" src="/img/${data.VehicleImage}" class="img-circle"/></div>`;
         }
         else {
-            return `<div class="text-center"><img style="width:50px;height:50px;" src="/img/favicon.png" class="img-circle"/></div>`;
+            return `<div class="text-center"><img style="width:80px;height:50px;" src="/img/favicon.png" class="img-circle"/></div>`;
         }
     }
 

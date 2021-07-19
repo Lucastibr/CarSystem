@@ -1,13 +1,14 @@
 ﻿@using CarSystem.Web.Models.Enterprise
 @model EnterpriseViewModel
 
-<h3> Car System - Novo</h3>
+<h3 class="text-muted ml-2"> Car System - Nova Empresa</h3>
 
+<div class="container">
 <form method="post" role="form">
     <input asp-for="Id" type="hidden"/>
     <div asp-validation-summary="None"></div>
 
-    <div class="form-group">
+    <div class="form-group ">
         <div class="form-group">
             <label asp-for="CompanyName"></label>
             <input asp-for="CompanyName" class="form-control" />
@@ -20,11 +21,13 @@
         </div>
 
         <div class="form-group">
+            <a class="btn btn-danger" asp-action="Index">Voltar</a>
             <button class="btn btn-primary" type="submit">Salvar</button>
         </div>
 
     </div>
 </form>
+    </div>
 
 @section Scripts
 {
