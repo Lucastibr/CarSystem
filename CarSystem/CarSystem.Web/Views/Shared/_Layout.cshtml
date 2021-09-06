@@ -1,33 +1,75 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CarSystem</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
-    <link rel="stylesheet" href="~/css/site.css" />
-
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Car System</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="/vendors/iconfonts/ionicons/dist/css/ionicons.css">
+    <link rel="stylesheet" href="/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="/vendors/css/vendor.bundle.addons.css">
+    <link rel="stylesheet" href="/css/shared/style.css">
+      
     <partial name="_Styles" />
 
     @await RenderSectionAsync("Styles", required: false)
-</head>
-<body>
-    <partial name="_Header"/>
-    <div class="wrapper">
-    <partial name="_Sidebar"/>
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="/css/demo_1/style.css">
+    <!-- End Layout styles -->
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:partials/_navbar.html -->
+     <partial name="_Header"/>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+        <partial name="_Sidebar"/>
+        <!-- partial -->
+        <div class="main-panel">
+          
+          <div class="content-wrapper">
+              @RenderBody()
+          <footer class="footer">
+            <div class="container-fluid clearfix">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Car System - 2021</span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
     </div>
-        @RenderBody()
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="/vendors/js/vendor.bundle.base.js"></script> 
+    <script src="/vendors/js/vendor.bundle.addons.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="/js/shared/off-canvas.js"></script>
+    <script src="/js/shared/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="/js/demo_1/dashboard.js"></script>
+      
+  <script src="~/js/jquery/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="~/js/site.js" asp-append-version="true"></script>
+  <script src="https://kit.fontawesome.com/93af0721e9.js" crossorigin="anonymous"></script>   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+  <script src="https://kendo.cdn.telerik.com/2021.2.511/js/kendo.all.min.js"></script>
+  <script src="https://kendo.cdn.telerik.com/2021.2.511/js/kendo.aspnetmvc.min.js"></script>
+  <partial name="_Scripts" />
 
-<script src="~/js/jquery/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-<script src="https://kit.fontawesome.com/93af0721e9.js" crossorigin="anonymous"></script>   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
-<script src="https://kendo.cdn.telerik.com/2021.2.511/js/kendo.all.min.js"></script>
-<script src="https://kendo.cdn.telerik.com/2021.2.511/js/kendo.aspnetmvc.min.js"></script>
-<partial name="_Scripts" />
-
-@await RenderSectionAsync("Scripts", required: false)
-</body>
+  @await RenderSectionAsync("Scripts", required: false)
+  </body>
 </html>

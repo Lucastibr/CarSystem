@@ -33,6 +33,18 @@
     {
       "library": "toastr.js@2.1.4",
       "destination": "wwwroot/lib/toastr.js/"
+    },
+    {
+      "library": "apexcharts@3.28.1",
+      "destination": "wwwroot/lib/apexcharts/",
+      "files": [
+        "apexcharts.min.js",
+        "locales/en.json",
+        "locales/pt-br.json",
+        "apexcharts.css",
+        "apexcharts.js",
+        "apexcharts.min.css"
+      ]
     }
   ]
 }

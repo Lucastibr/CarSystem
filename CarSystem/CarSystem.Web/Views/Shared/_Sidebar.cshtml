@@ -1,18 +1,23 @@
-﻿
-    <aside class="sidebar">
-            <ul class="sidebar-nav">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a asp-action="Index" asp-controller="Vehicle">Veículos</a>
-                </li>
-                <li>
-                    <a asp-action="Index" asp-controller="Enterprise">Empresas</a>
-                </li>
-                <li>
-                  
-                </li>
-                 
-            </ul>
-        </aside>
+﻿<nav class="sidebar sidebar-offcanvas" id="sidebar">
+  <ul class="nav">
+      <li class="nav-item nav-category">Main Menu</li>
+    <li class="nav-item">
+      <a class="nav-link" asp-action="Index" asp-controller="Home">
+        <i class="menu-icon typcn typcn-document-text"></i>
+        <span class="menu-title">Home</span>
+      </a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" asp-action="Index" asp-controller="Vehicle">
+        <i class="menu-icon typcn typcn-shopping-bag"></i>
+        <span class="menu-title">Veículos</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" asp-action="Index" asp-controller="Enterprise">
+        <i class="menu-icon typcn typcn-th-large-outline"></i>
+        <span class="menu-title">Empresas</span>
+      </a>
+    </li>
+  </ul>
+</nav>

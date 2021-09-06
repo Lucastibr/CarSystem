@@ -2,18 +2,18 @@
 
 @(Html.Kendo().Grid<VehicleViewModel>()
     .Name("Grid")
+    .Resizable(x => x.Columns(true))
     .Columns(x =>
     {
-        x.Bound(c => c.Image).ClientTemplate("#= productImage(data)#");
-        x.Bound(c => c.LicensePlate).Title("Placa do Carro").Width(40);
-        x.Bound(c => c.Chassis).Title("Chassi do Carro").Width(40);
+        x.Bound(c => c.Image).ClientTemplate("#= productImage(data)#").Width(70);
+        x.Bound(c => c.LicensePlate).Title("Placa").Width(20);
         x.Bound(c => c.Price).Title("Valor").Format("{0:C2}").Width(60);
-        x.Bound(c => c.YearRelease).Title("Ano de Lançamento").Format("{0:MM/yyyy}").Width(60);
-        x.Bound(c => c.VehicleType).Title("Tipo de Veículo").Width(60);
+        x.Bound(c => c.YearRelease).Title("Ano Lanç.").Format("{0:MM/yyyy}").Width(30);
+        x.Bound(c => c.VehicleType).Title("Tipo.").Width(60);
         x.Bound(c => c.CarBody).Title("Cat.").Width(40);
         x.Bound(c => c.EnterpriseName).Title("Empresa").Width(60);
-        x.Bound("Id").ClientTemplate("#= editItem(data, '" + Url.Action("Edit") + "') #").Title("Editar").Width(60);
-        x.Bound("Id").ClientTemplate("#= deleteItem(data, '" + Url.Action("Delete") + "') #").Title("Excluir").Width(60);
+        x.Bound("Id").ClientTemplate("#= editItem(data, '" + Url.Action("Edit") + "') #").Title("Editar").Width(40);
+        x.Bound("Id").ClientTemplate("#= deleteItem(data, '" + Url.Action("Delete") + "') #").Title("Excluir").Width(40);
     })
     .Sortable()
     .Pageable(x => x.PageSizes(new[] { 10, 20, 30, 50, 100 }).ButtonCount(5).Refresh(true))

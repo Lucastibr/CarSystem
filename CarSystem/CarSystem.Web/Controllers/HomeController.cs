@@ -1,8 +1,11 @@
-﻿using CarSystem.Web.Controllers.Base;
+﻿using System.Linq;
+using CarSystem.Web.Controllers.Base;
 using CarSystem.Controllers.Helpers;
 using CarSystem.Domain;
+using CarSystem.Web.Models.Home;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using NHibernate.Mapping;
 
 namespace CarSystem.Web.Controllers
 {
@@ -14,15 +17,27 @@ namespace CarSystem.Web.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var model = new DashboardViewModel
+            {
+                Price = UnitOfWork.Vehicle.All()
+                    .Select(x => new DashboardViewModel
+                    {
+                        Price = x.Price
+                    }).Average(x => x.Price),
+                SumVehicles = UnitOfWork.Vehicle.All().Count(),
+                SumEnterprises = UnitOfWork.Enterprise.All().Count()
+            };
+
+            return View(model);
         }
 
-        [HttpGet]
-        public JsonResult Dashboard()
+        public JsonResult Chart()
         {
-            var vehicles = UnitOfWork.Vehicle.All();
+            var vehicles = UnitOfWork.Vehicle.All().Count();
+            var enterprise = UnitOfWork.Enterprise.All().Count();
+            
 
-            return Json(vehicles);
+            return Json(new {vehicles, enterprise });
         }
     }
 }

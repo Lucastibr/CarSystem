@@ -8,7 +8,7 @@ goto :choice
 
 :somewhere
 echo "Executando Migrator..."
-dotnet fm migrate -p sqlserver -c "Server=.\BDLUCAS;Database=CarSystem;Trusted_Connection=True;MultipleActiveResultSets=true;Pooling=True;Max Pool Size=1024;Connection Lifetime=3600" -a ".\bin\Debug\netstandard2.0\CarSystem.Migrations.dll"
+dotnet fm migrate -p sqlserver -c "Server=Lucas;Database=CarSystem;Trusted_Connection=True;MultipleActiveResultSets=true;Pooling=True;Max Pool Size=1024;Connection Lifetime=3600" -a ".\bin\Debug\netstandard2.0\CarSystem.Migrations.dll"
 pause 
 exit
 

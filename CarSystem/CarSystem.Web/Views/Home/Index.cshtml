@@ -1,7 +1,118 @@
-﻿@{
+﻿@model CarSystem.Web.Models.Home.DashboardViewModel
+
+@{
     Layout = "_Layout";
 }
 
-<div class="content">
-    <p class="text-white bg-dark">Oi</p>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Valor em Média
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.Price?.ToString("c")</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-car-side fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase">
+                            Quantidade de Veículos Cadastrados no Sistema
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.SumVehicles</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-car-alt fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Quantidade de Empresas Cadastradas no Sistema
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.SumEnterprises</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-building fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div id="chart"></div>
+    </div>
 </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        let charts = [];
+
+        const options = {
+            series: [12, 55],
+            chart: {
+                height: 350,
+                type: 'radialBar'
+            },
+            plotOptions: {
+                radialBar: {
+                    dataLabels: {
+                        name: {
+                            fontSize: '22px',
+                        },
+                        value: {
+                            fontSize: '16px',
+                        },
+                        total: {
+                            show: true,
+                            label: 'Total',
+                            formatter: function (w) {
+                                // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
+                                return 249;
+                            }
+                        }
+                    }
+                }
+            },
+            labels: ['Apples', 'Oranges'],
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('@Url.Action("Chart")', {
+                    method: 'get',
+                    headers: {
+                        'Accept': 'application/json, text/plain, */*',
+                        'Content-Type': 'application/json'
+                    }
+                }).then(res => res.json())
+                .then(res => charts.push(res));
+        });
+
+        console.log(charts);
+
+    </script>
+}

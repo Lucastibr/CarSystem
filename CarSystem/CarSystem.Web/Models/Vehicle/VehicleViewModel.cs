@@ -40,7 +40,7 @@ namespace CarSystem.Web.Models.Vehicle
         public decimal Price {get; set;}
 
         [Display(Name ="Imagem")]
-        public IFormFile Image {get; set;}
+        public IFormFile Image {get; init;}
 
         public string VehicleImage { get; set;}
         public override void Bind(IUnitOfWorkCarSystem unitOfWork)
@@ -61,7 +61,7 @@ namespace CarSystem.Web.Models.Vehicle
            if (LicensePlate.Length > 8 && LicensePlate != null)
                     modelState.AddModelError("LicensePlate", "Placa só deve ter 7 Caracteres");
             
-            return base.IsValid(unitOfWork, modelState);
+           return base.IsValid(unitOfWork, modelState);
         }
     }
 }
