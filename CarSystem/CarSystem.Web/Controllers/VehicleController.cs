@@ -41,7 +41,7 @@ namespace CarSystem.Web.Controllers
 
         public override Vehicle ToDomain(VehicleViewModel model)
         {
-            string uniqueFileName = UploadedFile(model);  
+            var uniqueFileName = UploadedFile(model);  
 
             var domain = model.Id.HasValue ? UnitOfWork.Vehicle.Get(model.Id) : new Vehicle();
             domain.LicensePlate = model.LicensePlate;
@@ -93,13 +93,11 @@ namespace CarSystem.Web.Controllers
   
             if (model.Image != null)  
             {  
-                string uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "img");  
+                var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "img");  
                 uniqueFileName = Guid.NewGuid().ToString() + "_" + model.Image.FileName;  
-                string filePath = Path.Combine(uploadsFolder, uniqueFileName);  
-                using (var fileStream = new FileStream(filePath, FileMode.Create))  
-                {  
-                    model.Image.CopyTo(fileStream);  
-                }  
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                using var fileStream = new FileStream(filePath, FileMode.Create);
+                model.Image.CopyTo(fileStream);
             }  
             return uniqueFileName;  
         }  
