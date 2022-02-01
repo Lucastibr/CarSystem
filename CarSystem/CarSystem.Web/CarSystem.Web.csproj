@@ -2037,10 +2037,12 @@
 
   <ItemGroup>
       <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.5" />
     <PackageReference Include="Codout.Framework.Domain" Version="2.0.4" />
     <PackageReference Include="Codout.Framework.NH" Version="2.0.6" />
     <PackageReference Include="FluentNHibernate" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.0.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Csharp" Version="4.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
     <PackageReference Include="Telerik.UI.for.AspNet.Core" Version="2021.1.330" />
@@ -2049,6 +2051,10 @@
   <ItemGroup>
     <ProjectReference Include="..\CarSystem.Data\CarSystem.Data.csproj" />
     <ProjectReference Include="..\CarSystem.Domain\CarSystem.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Shopping\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

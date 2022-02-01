@@ -33,7 +33,7 @@ namespace CarSystem.Web.Models.Vehicle
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [Display(Name = "Ano de Lançamento")]
-        public DateTime YearRelease {get; set;}
+        public DateTime? YearRelease {get; set;}
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [Display(Name = "Valor do Veículo")]

@@ -39,6 +39,11 @@ namespace CarSystem.Domain
         /// </summary>
         public virtual CarBody? CarBody {get; set;}
 
+        /// <summary>
+        /// Categoria do Veículo
+        /// </summary>
+        public virtual VehicleCategory VehicleCategory {get; set;}
+
         public virtual string Image {get; set;}
     }
 }

@@ -12,5 +12,6 @@ namespace CarSystem.Domain
     {
         IVechileRepository Vehicle {get; }
         IEnterpriseRepository Enterprise {get;}
+        IVehicleCategoryRepository VehicleCategory {get;}
     }
 }

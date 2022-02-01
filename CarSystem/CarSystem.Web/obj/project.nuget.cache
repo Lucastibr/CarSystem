@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mIxCjCjzLuM0bpOtQ4qprw6PzCURu3L4vbAF3JHJinqGfHvqrb1NwRjnOS4N3cXsdnGOkVcvt9ksDA12uiFyIA==",
+  "dgSpecHash": "ikT4jz9A3kMBn9Y4nmlqbBDczR3W8KclweSVnPNyp4sahRY+P4RSvZrURBiQFraJZCl5/9tv80DKwgpxXFco9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucas\\Desktop\\Projects\\CarSystem\\CarSystem\\CarSystem.Web\\CarSystem.Web.csproj",
   "expectedPackageFiles": [
@@ -14,22 +14,22 @@
     "C:\\Users\\Lucas\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.0\\microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.5\\microsoft.aspnetcore.mvc.razor.extensions.5.0.5.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.5\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.5.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.5\\microsoft.aspnetcore.razor.language.5.0.5.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.1\\microsoft.aspnetcore.mvc.razor.extensions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.1\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.1.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.1\\microsoft.aspnetcore.razor.language.6.0.1.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis\\3.8.0\\microsoft.codeanalysis.3.8.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.1\\microsoft.codeanalysis.common.4.0.1.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.0.1\\microsoft.codeanalysis.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\3.8.0\\microsoft.codeanalysis.csharp.workspaces.3.8.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.razor\\5.0.5\\microsoft.codeanalysis.razor.5.0.5.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.1\\microsoft.codeanalysis.razor.6.0.1.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\microsoft.codeanalysis.visualbasic.3.8.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.visualbasic.workspaces\\3.8.0\\microsoft.codeanalysis.visualbasic.workspaces.3.8.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\3.8.0\\microsoft.codeanalysis.workspaces.common.3.8.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0\\microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.platformabstractions\\1.1.0\\microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -63,7 +63,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
@@ -108,7 +108,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
@@ -129,6 +129,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
@@ -138,5 +140,56 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\telerik.ui.for.aspnet.core\\2021.1.330\\telerik.ui.for.aspnet.core.2021.1.330.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: Microsoft.CodeAnalysis.CSharp.Workspaces 3.8.0 requer Microsoft.CodeAnalysis.Common (= 3.8.0), mas a versão Microsoft.CodeAnalysis.Common 4.0.1 foi resolvida.",
+      "libraryId": "Microsoft.CodeAnalysis.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: Microsoft.CodeAnalysis.CSharp.Workspaces 3.8.0 requer Microsoft.CodeAnalysis.CSharp (= 3.8.0), mas a versão Microsoft.CodeAnalysis.CSharp 4.0.1 foi resolvida.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: Microsoft.CodeAnalysis.VisualBasic.Workspaces 3.8.0 requer Microsoft.CodeAnalysis.Common (= 3.8.0), mas a versão Microsoft.CodeAnalysis.Common 4.0.1 foi resolvida.",
+      "libraryId": "Microsoft.CodeAnalysis.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: Microsoft.CodeAnalysis.Workspaces.Common 3.8.0 requer Microsoft.CodeAnalysis.Common (= 3.8.0), mas a versão Microsoft.CodeAnalysis.Common 4.0.1 foi resolvida.",
+      "libraryId": "Microsoft.CodeAnalysis.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: Microsoft.CodeAnalysis.VisualBasic 3.8.0 requer Microsoft.CodeAnalysis.Common (= 3.8.0), mas a versão Microsoft.CodeAnalysis.Common 4.0.1 foi resolvida.",
+      "libraryId": "Microsoft.CodeAnalysis.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

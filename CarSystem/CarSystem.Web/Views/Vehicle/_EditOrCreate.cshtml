@@ -22,13 +22,16 @@
                <div class="form-group row">
             <div class="col-md-6">
                 <label asp-for="Price"></label>
-                <input asp-for="Price" class="form-control" type="text" />
+                <input asp-for="Price" class="form-control" asp-format"{0:c2}"/>
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="col-md-6">
                 <label asp-for="YearRelease"></label>
-                <input asp-for="YearRelease" class="form-control" id="datepicker" />
-                <span asp-validation-for="YearRelease" class="text-danger"></span>
+               @(Html.Kendo().DatePicker()
+              .Name("datepicker")
+              .Value(@Model.YearRelease)
+              .HtmlAttributes(new { style = "width: 100%", title = "datepicker" })
+        )
             </div>
             </div>
             <div class="row mb-2">
@@ -71,12 +74,6 @@
             $(function () {
                 $('.select2').select2();
 
-                $("#datepicker").kendoDatePicker({
-                    start: "year",
-                    depth: "year",
-                    format: "MM/yyyy",
-                    dateInput: true
-                });
                 Image();
             });
 

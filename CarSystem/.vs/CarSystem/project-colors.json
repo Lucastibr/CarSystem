@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7702d2fd-1e71-4e69-a963-8dae6dbbd32a": {
+      "ProjectGuid": "7702d2fd-1e71-4e69-a963-8dae6dbbd32a",
+      "DisplayName": "CarSystem.Web",
+      "ColorIndex": 0
+    },
+    "b8aadf4f-0b2c-42b0-87d1-b782aa8ad2f1": {
+      "ProjectGuid": "b8aadf4f-0b2c-42b0-87d1-b782aa8ad2f1",
+      "DisplayName": "CarSystem.Domain",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

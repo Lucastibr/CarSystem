@@ -48,7 +48,7 @@ namespace CarSystem.Web.Controllers
             domain.Chassis = model.Chassis;
             domain.Price = model.Price;
             domain.VehicleType = model.VehicleType.GetValueOrDefault();
-            domain.YearRelease = model.YearRelease;
+            domain.YearRelease = model.YearRelease.Value;
             domain.CarBody = model.CarBody.GetValueOrDefault();
             domain.Enterprise = model.EnterpriseId.HasValue ? UnitOfWork.Enterprise.Get(model.EnterpriseId) : null;
             domain.Image = uniqueFileName;

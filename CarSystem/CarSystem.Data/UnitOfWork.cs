@@ -14,6 +14,7 @@ namespace CarSystem.Data
         {
             RepositoryFactory.RegisterRepository<IVechileRepository, VehicleRepository, Vehicle>();
             RepositoryFactory.RegisterRepository<IEnterpriseRepository, EnterpriseRepository, Enterprise>();
+            RepositoryFactory.RegisterRepository<IVehicleCategoryRepository, VehicleCategoryRepository, VehicleCategory>();
         }
 
         public UnitOfWork(ITenant tenant = null) : base(tenant)
@@ -23,5 +24,6 @@ namespace CarSystem.Data
 
         public IVechileRepository Vehicle  => _factory.Get<IVechileRepository>();
         public IEnterpriseRepository Enterprise => _factory.Get<IEnterpriseRepository>();
+        public IVehicleCategoryRepository VehicleCategory => _factory.Get<IVehicleCategoryRepository>();
     }
 }
